@@ -3,7 +3,17 @@ guid: ec485b62729d9e5479e44d9a64ade015
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex.Gun
+    second: {fileID: 2100000, guid: fd9e6d28b49e479498f52e0a37b30c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex.Halo
+    second: {fileID: 2100000, guid: a6223dcbc213f4d48a5a6d40b884d9a0, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
