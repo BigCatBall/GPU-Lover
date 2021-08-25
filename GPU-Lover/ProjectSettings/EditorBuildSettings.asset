@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/L3.unity
     guid: 1be18297bb931e34e9de0a95f8051709
+  - enabled: 1
+    path: Assets/Scenes/Player_Battle.unity
+    guid: 57f81b4c7ad8d574b92592d60c072348
   m_configObjects: {}
