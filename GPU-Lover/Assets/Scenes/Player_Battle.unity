@@ -388,7 +388,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e4ab930e67df8fd488afc94f23047104, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -581,9 +581,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bullet
       objectReference: {fileID: 0}
+    - target: {fileID: 1471236681367788505, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -930341005361163201, guid: ec485b62729d9e5479e44d9a64ade015, type: 3}
+    - target: {fileID: 1692673155976625202, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e4ab930e67df8fd488afc94f23047104, type: 2}
     - target: {fileID: 2075831046346792109, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.512848
+      value: 5.5129
       objectReference: {fileID: 0}
     - target: {fileID: 2075831046346792109, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -591,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2075831046346792109, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.035
+      value: -11.023
       objectReference: {fileID: 0}
     - target: {fileID: 2075831046346792109, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -624,6 +632,18 @@ PrefabInstance:
     - target: {fileID: 2075831046346792109, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075831046346792109, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 113.35484
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075831046346792109, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 113.35484
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075831046346792109, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 113.35484
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95ce7153fd2924f4b89aad4741b3b7b3, type: 3}
