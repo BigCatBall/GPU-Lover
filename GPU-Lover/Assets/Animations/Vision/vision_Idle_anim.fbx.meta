@@ -6,7 +6,47 @@ ModelImporter:
   - first:
       74: 227044366395985440
     second: vision_Idle_anim
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Accent
+    second: {fileID: 2100000, guid: a6223dcbc213f4d48a5a6d40b884d9a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet
+    second: {fileID: 2100000, guid: fd9e6d28b49e479498f52e0a37b30c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex.Clothing
+    second: {fileID: 2100000, guid: bb0b3057c2f37964796c42a8aac64a9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex.Eye.001
+    second: {fileID: 2100000, guid: 89d9de6e9648e9141bcc710d858a6986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex.Face
+    second: {fileID: 2100000, guid: b74e17bbe983afb438499a063fa24296, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex.Gun
+    second: {fileID: 2100000, guid: 87dbc1682c0fdad48b77dcae89c8be14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex.Hair
+    second: {fileID: 2100000, guid: fd9e6d28b49e479498f52e0a37b30c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex.Strap
+    second: {fileID: 2100000, guid: fd9e6d28b49e479498f52e0a37b30c47, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

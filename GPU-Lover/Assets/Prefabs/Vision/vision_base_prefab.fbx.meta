@@ -18,17 +18,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: tex.Clothing
-    second: {fileID: 2100000, guid: bbaade0966ad5b94d927880021278be5, type: 2}
+    second: {fileID: 2100000, guid: bb0b3057c2f37964796c42a8aac64a9c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: tex.Eye.001
-    second: {fileID: 2100000, guid: fdf320c3fd72941438f88726b307497b, type: 2}
+    second: {fileID: 2100000, guid: 89d9de6e9648e9141bcc710d858a6986, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: tex.Face
-    second: {fileID: 2100000, guid: e072ff499721b4547996cd853fdfbfb8, type: 2}
+    second: {fileID: 2100000, guid: b74e17bbe983afb438499a063fa24296, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
