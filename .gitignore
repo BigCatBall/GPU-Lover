@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+*.meta
+*.meta
+GPU-Lover/Assets/Scripts/Combat/DestroyBullet.cs.meta
+*.meta
