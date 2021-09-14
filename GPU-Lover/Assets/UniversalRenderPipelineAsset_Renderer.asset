@@ -1,5 +1,48 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9149856011396092005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2faf6e1ec0a031441adca7071fb09f27, type: 3}
+  m_Name: Depth - Normals
+  m_EditorClassIdentifier: 
+  m_Active: 1
+--- !u!114 &-2817071406636722607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 936b1fec71f850a41ae5a5377ccd18a6, type: 3}
+  m_Name: DeNorSob Outline
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings:
+    OutlineWidth: 1
+    DepthThreshold: 900
+    NormalThreshold: 1.3
+    NormalMin: 1
+    NormalMax: 1
+    SobelOutline: 0
+    SobelOutlineThreshold: 50
+    WhiteThreshold: 0
+    BlackThreshold: 0
+    OutlineColor: {r: 0.7774615, g: 0, b: 1, a: 1}
+    ColorIntensity: 1
+    MixFullScreenColor: 0
+    ShowOutlineOnly: 0
+    MixDephNormalAndSobelOutline: 0
+    DeNorSobOutlineShader: {fileID: 4800000, guid: 76d3903ff637fd94cb83f28811b66e1a, type: 3}
+    WhenToInsert: 500
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,8 +55,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
   m_Name: UniversalRenderPipelineAsset_Renderer
   m_EditorClassIdentifier: 
-  m_RendererFeatures: []
-  m_RendererFeatureMap: 
+  m_RendererFeatures:
+  - {fileID: -2817071406636722607}
+  - {fileID: -9149856011396092005}
+  m_RendererFeatureMap: 5116822c7bc0e7d89b6fc3866f2e0581
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   shaders:
     blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
